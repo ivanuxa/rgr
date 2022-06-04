@@ -17,10 +17,6 @@ int   listRemove(Node* first, ID id);
 Node* listChangeDeparturePoint(Node* first, ID id, char* departurePoint);
 Node* listChangeDestinationPoint(Node* first, ID id, char* destinationPoint);
 Node* listChangeTime(Node* first, ID id, TIME time[2]);
-Node* listChangeDeparturePointAndDestinationPoint(Node* first, ID id, char* departurePoint, char* destinationPoint);
-Node* listChangeDeparturePointAndTime(Node* first, ID id, char* departurePoint, TIME time[2]);
-Node* listChangeDestinationPointAndTime(Node* first, ID id, char* destinationPoint, TIME time[2]);
-Node* listChangeDeparturePointAndDestinationPointAndTime(Node* first, ID id, char* departurePoint, char* destinationPoint, TIME time[2]);
 
 
 #endif // NODE_H_
